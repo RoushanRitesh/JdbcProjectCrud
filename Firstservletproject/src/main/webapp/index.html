@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>servletProject</title>
+<style type="text/css">
+body{
+
+
+background-repeat:repeat;
+background-image: url("https://w0.peakpx.com/wallpaper/274/920/HD-wallpaper-life-code-live-quote.jpg");
+}
+
+td
+{
+font-size : 25px;
+color: white;
+}
+
+table{
+position : absolute;
+top : 50%;
+right : 30%;
+}
+
+a{
+font-size : 20px;
+position : absolute;
+top:70%;
+right : 50%;
+color : red;
+}
+</style>
+
+</head>
+<body>
+<div class="con">
+<h1>Add new Employees</h1>
+<div id="tab">
+<form action="saveServlet" action="get">
+<table>
+<tr><td>Id</td><td>
+<input type="text" name="id"/></td></tr>
+<tr><td>Name</td><td>
+<input type="text" name="name"/></td></tr>
+<tr><td>password</td>
+<td><input type="password" name="password"/>
+</td></tr>
+<tr><td>Email</td><td><input type="text" name="email">
+</td></tr>
+<tr><td> Country</td><td>
+<select name="country" style="width:150px">
+<option>India</option>
+<option>Usa</option>
+<option>Us</option>
+<option>other</option>
+</select>
+</td>
+</tr>
+<tr><td colspan="2"><input type="submit" value="SaveEmployee">
+</td></tr>
+
+<a href="ViewServlet">View Employee</a>
+</table>
+
+
+</form>
+</div>
+
+</div>
+</body>
+</html>
